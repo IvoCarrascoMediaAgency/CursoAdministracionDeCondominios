@@ -1,0 +1,75 @@
+#nav1 {
+
+    display: grid;
+    height: 50px;
+    list-style: none;
+    text-decoration: none;
+    
+
+    
+
+
+    /* grid-template-columns:
+        [uno-start] 1fr
+        [uno-end dos-start] 1fr
+        [dos-end];
+
+    grid-template-rows:
+        [unofila-start] 50px
+        [unofila-end dosfila-start] 1fr
+        [tresfila-start] 1fr
+        [tresfila-end];*/
+} 
+
+
+#nav1 li{
+    list-style: none;
+}
+/* main > * {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+#nav1 h1{
+    order: 10;
+    
+}
+
+#wtmasivo {
+    display: flex;
+
+    
+}
+
+#cli{
+    display: grid;
+}
+
+#men{
+    display: grid;
+}
+#num{
+    display: grid;
+}
+
+#btn{
+    display: grid;
+}
+
+
+
+
+header {
+    grid-row: uno-start/ dos-end ;
+}
+
+aside {
+    grid-row: header-end / footer-end;
+}
+
+footer {
+    grid-column: contenido-start / contenido-end;
+}

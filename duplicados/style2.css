@@ -1,0 +1,429 @@
+html{
+	box-sizing: border-box;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+*,
+*:after,
+*::before{
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+	
+}
+
+body{
+	background: #ede7f3;
+}
+
+.portadabox figure{
+	width: 100%;
+	height: 620px;
+	
+}
+
+.portadabox figure img{
+	width: 100%;
+	height: 100%;
+}
+
+.portadabox{
+	width: 100%;
+	height: 620px;
+	background: blueviolet;
+}
+
+
+
+.container{
+	font-family: 'Dosis', sans-serif;
+}
+
+
+/* 1.Header */
+header{
+	width: 100%;
+	height: 50px;
+	background: rgb(43, 226, 134);
+	overflow: hidden;
+	
+	
+}
+
+header .container{
+	width: 100%;
+	height: 50px;
+	min-width: 300px;
+	max-width: 1000px;
+	align-content: center;
+	display: inline-block;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+}
+
+
+
+
+
+.container .logomenu {
+	display: inline-flex;
+	background: orange;
+	width: 100%;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+
+
+
+/* .container h1 a .marca{
+	width: 90%;
+	float: right;
+} */
+
+.container h1{
+	margin: 0;
+	padding: 0;
+	line-height: 50px;
+	
+}
+.container h1 a .marca{
+	display:flex;
+	/* flex-direction: row;
+	justify-content: space-between; */
+	
+	background: red;
+	
+	/* float: left; */
+	line-height: 40px;
+}
+
+.container h1 {
+	font-size: 1.2em;
+	text-decoration: none;
+	
+}
+
+.container h1 a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.container figure{
+	width: 70px;
+	height: 70px;
+	display: flex;
+	position: relative;
+	float: left;
+	margin:0 10px; 
+
+
+}
+
+.container figure img{
+	width: 100%;
+}
+
+.container h1 a span{
+	float: right;
+	background: blue;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	
+
+}
+
+/* .container ul{
+	display: none;
+} */
+
+
+/* BODY */
+body{
+	
+}
+/* Articulo */
+
+/* video marketing */
+
+
+
+.videomarketing{
+	width: 200px;
+	height:200px;
+	background: black;
+	margin: auto;
+	order: 1;
+}
+
+/* Clientes */
+
+.clientes{
+
+}
+
+
+
+/* header nav{
+	display: none;
+} */
+
+
+/* 
+
+.menu_bar {
+	display:none;
+}
+
+
+
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li span {
+	margin-right:10px;
+}
+
+header nav ul li a:hover {
+	background:#037E8C;
+}
+
+section {
+	padding:20px;
+}
+
+@media screen and (max-width:800px ) {
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+	}
+
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+        background:#ccc;
+        
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px; 
+		background:#024959;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:0.8em;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+        box-sizing:border-box;
+        height: 40px;
+        line-height: 40px;
+       
+    }
+    
+    .menu_bar a.menu_bar {
+        line-height: 40px;
+       
+    }
+
+	.menu_bar span {
+		float:right;
+        font-size:25px;
+        transform: rotate(90deg);
+        margin-right: 10px;
+        margin-top: 5px;
+        
+        
+        
+	}
+}
+
+
+/* 
+ */
+
+
+
+@media screen and (min-width: 480px){
+
+    body{
+        background: red;
+	}
+	
+
+}
+
+@media screen and (min-width: 600px){
+
+    body{
+        background: orange;
+    }
+}
+
+@media screen and (min-width: 805px){
+    body{
+        background: yellow
+	}
+
+	.container {
+		
+		height: 50px;
+		background: red;
+		display: flex;
+		
+	}
+
+	.logomenu h1 a{
+		margin: auto;
+		
+	}
+	
+	.container ul{
+		display: inline-block;
+		width: 100%;
+		float: ;
+	}	
+	
+	.logomenu ul{
+		display: flex;
+		background: violet;
+		width: 65%;
+		float: right;
+		line-height: 50px;
+	}
+
+	
+
+	.logomenu ul li{
+		margin: auto;
+		list-style-type: none;
+		
+		
+	}
+
+	.logomenu ul li a{
+		text-decoration: none;
+		color: white;
+	}
+
+	.logomenu ul li a:hover{
+		color: skyblue;
+	}
+
+	.logomenu ul li button a:hover{
+		color: white;
+	}
+
+	.logomenu ul li button {
+		margin: 0;
+		height: 40px;
+		/* margin: 0 auto; */
+		text-align: center;
+		line-height: 37px;
+	
+
+		color: white;
+		background-color: #1EBEA5;
+		border-radius: 10px;
+		border: 2px solid #00E676;
+	}
+
+	.logomenu ul li button a{
+		margin-right: 5px;
+	}
+
+	.logomenu ul li.wtp1{
+		/* margin: 0; */
+	}
+	.logomenu ul li button:hover{
+		background: #00E676;
+	}
+
+
+
+	.logomenu ul li button span{
+	margin: 3px;
+		font-size: 1.2em;
+		
+	}
+
+	
+	.container h1 a span{
+		display: none;
+	}
+
+	.container h1 {
+		display:flex;
+		width: 35%;
+		background: white;
+		font-size: 1em;
+	}
+
+	.container h1:hover{
+		background: tomato;
+	}
+
+
+	header{
+		/* display: inline-block;
+		height: 100px; */
+	}
+
+	nav.logomenu{
+		display: flex;
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+	
+
+	
+
+@media screen and (min-width: 950px){
+    body{
+		background: green;
+	}
+
+	
+	
+	
+	
+} 
+
+}
+
